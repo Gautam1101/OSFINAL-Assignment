@@ -100,3 +100,20 @@ awt=(float)twt/n1;
 atat=(float)ttat/n1;
 
 
+printf("\n\n ROUND ROBIN SCHEDULING ALGORITHM \n\n");
+
+printf("\n\n Process \t\t Arrival time  \t\tBurstTime \t\t Waiting Time \t\t TurnaroundTime \n ");
+
+for(i=1;i<=n1;i++)
+{
+ 
+ printf("\n \n%5d \t\t\t %5d \t\t\t %5d \t\t\t %5d \t\t\t %5d \n", i,pid[i],bt[i],wt[i],tat[i]);
+}
+
+
+printf("\n The average Waiting Time=4.2",awt);
+
+printf("\n The average Turn around Time=4.2",atat);
+getch();
+}         
+
