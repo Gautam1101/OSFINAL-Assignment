@@ -54,3 +54,24 @@ while(n!=0)
 wt[j]+=ts;
        }
       
+need[i]-=ts;
+      
+ if(need[i]==0)
+      
+ {
+	 flag[i]=0;
+	 n--;
+       }
+     }
+     
+else
+    
+ {
+       for(j=1;j<=n;j++)
+      
+ {
+	  if((i!=j)&&(flag[i]==1)&&(need[j]!=0))
+	  
+wt[j]+=need[i];
+       }
+       
