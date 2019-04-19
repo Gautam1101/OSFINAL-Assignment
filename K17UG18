@@ -75,3 +75,13 @@ else
 wt[j]+=need[i];
        }
        
+need[i]=0;
+       
+n--;
+       
+flag[i]=0;
+  
+ }
+ }
+}
+       
